@@ -1,22 +1,22 @@
-let myAccount = {
+const myAccount = {
     name: 'Sagar',
     income: 0,
     expense: 0
 }
 
-let addExpense = function (account, amount){
+const addExpense = function (account, amount){
     account.expense = account.expense + amount
 }
 
-let addIncome = function (account, amount){
+const addIncome = function (account, amount){
     account.income = account.income + amount
 }
 
-let accountSummary = function(account){
+const accountSummary = function(account){
     return `${account.name} has ${account.income - account.expense}.${account.income} in income, ${account.expense} in expenses`
 }
 
-let resetAccount = function (account) {
+const resetAccount = function (account) {
     account.income = 0
     account.expense = 0
 }

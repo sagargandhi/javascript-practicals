@@ -1,4 +1,4 @@
-let tempConversion = function(tempInFarenhiet){
+const tempConversion = function(tempInFarenhiet){
     return {
         farenhiet: tempInFarenhiet,
         degrees: (tempInFarenhiet - 32) * 5 / 9,
