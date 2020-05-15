@@ -1,4 +1,4 @@
-let makeGuess = function (num){
+const makeGuess = function (num){
     const max = 10
     const min = 1
     const initial = Math.floor(num * (max - min + 1)) + 1

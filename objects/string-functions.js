@@ -1,9 +1,5 @@
 let isValidPassword = function(password){
-    if(password.length >= 8 && password.includes('password') === false){
-        return true
-    } else {
-        return false
-    }
+    return (password.length >= 8 && password.includes('password') === false)
 }
 
 console.log(isValidPassword('sagar'))
