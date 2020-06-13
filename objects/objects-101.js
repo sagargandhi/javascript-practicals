@@ -1,11 +1,23 @@
-const person = {
-    name: 'Sagar',
-    age: 35,
-    location: "Pune"
+let myBook = {
+    title: '1984',
+    author: 'George Orwell',
+    pageCount: 326
 }
 
-console.log(`${person.name} is ${person.age} and lives in ${person.location}.`)
+console.log(`${myBook.title} by ${myBook.author}`)
 
-person.age = person.age + 1
+myBook.title = 'Animal Farm'
 
-console.log(`${person.name} is ${person.age} and lives in ${person.location}.`)
+console.log(`${myBook.title} by ${myBook.author}`)
+
+// Challenge area
+
+let me = {
+    name: 'Andrew',
+    age: 27,
+    location: 'Philadelphia'
+}
+
+console.log(`${me.name} is ${me.age} and lives in ${me.location}.`)
+me.age = me.age + 1
+console.log(`${me.name} is ${me.age} and lives in ${me.location}.`)
