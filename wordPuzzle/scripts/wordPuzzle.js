@@ -1,4 +1,4 @@
-class Hangman {
+class WordPuzzle {
     constructor(word, remainingGuesses) {
         this.word = word.toLowerCase().split('')
         this.remainingGuesses = remainingGuesses
